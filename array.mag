@@ -1,0 +1,113 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1647632830
+<< metal1 >>
+rect 210 -1246 255 629
+rect 304 -1246 339 629
+rect 1000 -1246 1035 629
+rect 1084 -1246 1129 629
+rect 1824 -1246 1869 629
+rect 1918 -1246 1953 629
+<< metal2 >>
+rect 0 342 2146 382
+rect 0 259 2146 292
+rect 0 146 2146 184
+rect 0 -283 2146 -243
+rect 0 -366 2146 -333
+rect 0 -479 2146 -441
+rect 0 -908 2146 -868
+rect 0 -991 2146 -958
+rect 0 -1104 2146 -1066
+use cell_1rw  cell_1rw_3
+timestamp 1647626135
+transform 1 0 124 0 1 -256
+box -124 -365 408 260
+use ntap_1rw  ntap_1rw_1
+timestamp 1647626135
+transform 1 0 572 0 1 -559
+box -40 -62 235 563
+use ntap_1rw  ntap_1rw_2
+timestamp 1647626135
+transform 1 0 572 0 1 -1184
+box -40 -62 235 563
+use cell_1rw  cell_1rw_6
+timestamp 1647626135
+transform 1 0 124 0 1 -881
+box -124 -365 408 260
+use cell_1rw  cell_1rw_4
+timestamp 1647626135
+transform -1 0 1215 0 1 -256
+box -124 -365 408 260
+use cell_1rw  cell_1rw_7
+timestamp 1647626135
+transform -1 0 1215 0 1 -881
+box -124 -365 408 260
+use ptap_1rw  ptap_1rw_1
+timestamp 1647626531
+transform 1 0 1363 0 1 -589
+box -24 -32 251 593
+use ptap_1rw  ptap_1rw_2
+timestamp 1647626531
+transform 1 0 1363 0 1 -1214
+box -24 -32 251 593
+use cell_1rw  cell_1rw_5
+timestamp 1647626135
+transform 1 0 1738 0 1 -256
+box -124 -365 408 260
+use cell_1rw  cell_1rw_8
+timestamp 1647626135
+transform 1 0 1738 0 1 -881
+box -124 -365 408 260
+use ntap_1rw  ntap_1rw_0
+timestamp 1647626135
+transform 1 0 572 0 1 66
+box -40 -62 235 563
+use cell_1rw  cell_1rw_0
+timestamp 1647626135
+transform 1 0 124 0 1 369
+box -124 -365 408 260
+use cell_1rw  cell_1rw_1
+timestamp 1647626135
+transform -1 0 1215 0 1 369
+box -124 -365 408 260
+use ptap_1rw  ptap_1rw_0
+timestamp 1647626531
+transform 1 0 1363 0 1 36
+box -24 -32 251 593
+use cell_1rw  cell_1rw_2
+timestamp 1647626135
+transform 1 0 1738 0 1 369
+box -124 -365 408 260
+<< labels >>
+rlabel metal2 12 154 28 172 1 WL0
+port 1 n
+rlabel metal2 13 -471 27 -456 1 WL1
+port 2 n
+rlabel metal2 14 -1095 29 -1080 1 WL2
+port 3 n
+rlabel metal1 221 607 238 622 1 BL0
+port 4 n
+rlabel metal1 309 608 328 623 1 BR0
+port 5 n
+rlabel metal1 1010 606 1025 619 1 BR1
+port 6 n
+rlabel metal1 1101 610 1112 622 1 BL1
+port 7 n
+rlabel metal1 1838 610 1850 623 1 BL2
+port 8 n
+rlabel metal1 1930 610 1942 623 1 BR2
+port 9 n
+rlabel metal2 19 348 39 368 1 VPWR
+port 10 n
+rlabel metal2 14 -267 26 -255 1 VPWR
+port 10 n
+rlabel metal2 17 -897 29 -885 1 VPWR
+port 10 n
+rlabel metal2 22 268 41 286 1 VGND
+port 11 n
+rlabel metal2 14 -359 33 -341 1 VGND
+port 11 n
+rlabel metal2 17 -984 36 -966 1 VGND
+port 11 n
+<< end >>
