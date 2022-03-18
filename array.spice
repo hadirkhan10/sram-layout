@@ -1,0 +1,23 @@
+* NGSPICE file created from array.ext - technology: sky130A
+
+.subckt cell_1rw VGND BL BR WL VPWR VNB VPB m2_n124_n223#
+X0 BL WL a_n38_n159# VNB sky130_fd_pr__nfet_01v8 ad=1.314e+11p pd=1.45e+06u as=2.43e+11p ps=2.07e+06u w=360000u l=150000u
+X1 VPWR a_n38_n159# a_n38_n63# VPB sky130_fd_pr__pfet_01v8 ad=2.516e+11p pd=2.82e+06u as=2.121e+11p ps=1.85e+06u w=420000u l=180000u
+X2 a_n38_n159# a_n38_n63# VGND VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=2.404e+11p ps=2.66e+06u w=360000u l=150000u
+X3 a_n38_n63# WL BR VNB sky130_fd_pr__nfet_01v8 ad=2.196e+11p pd=1.94e+06u as=9.72e+10p ps=1.26e+06u w=360000u l=150000u
+X4 VGND a_n38_n159# a_n38_n63# VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=360000u l=150000u
+X5 a_n38_n159# a_n38_n63# VPWR VPB sky130_fd_pr__pfet_01v8 ad=2.31e+11p pd=1.94e+06u as=0p ps=0u w=420000u l=180000u
+.ends
+
+.subckt array WL0 WL1 WL2 BL0 BR0 BR1 BL1 BL2 BR2 VPWR VGND
+Xcell_1rw_0 VGND BL0 BR0 WL0 VPWR VSUBS cell_1rw_7/VPB WL0 cell_1rw
+Xcell_1rw_1 VGND BL1 BR1 WL0 VPWR VSUBS cell_1rw_7/VPB WL0 cell_1rw
+Xcell_1rw_2 VGND BL2 BR2 WL0 VPWR VSUBS cell_1rw_8/VPB WL0 cell_1rw
+Xcell_1rw_4 VGND BL1 BR1 WL1 VPWR VSUBS cell_1rw_7/VPB WL1 cell_1rw
+Xcell_1rw_3 VGND BL0 BR0 WL1 VPWR VSUBS cell_1rw_7/VPB WL1 cell_1rw
+Xcell_1rw_5 VGND BL2 BR2 WL1 VPWR VSUBS cell_1rw_8/VPB WL1 cell_1rw
+Xcell_1rw_6 VGND BL0 BR0 WL2 VPWR VSUBS cell_1rw_7/VPB WL2 cell_1rw
+Xcell_1rw_7 VGND BL1 BR1 WL2 VPWR VSUBS cell_1rw_7/VPB WL2 cell_1rw
+Xcell_1rw_8 VGND BL2 BR2 WL2 VPWR VSUBS cell_1rw_8/VPB WL2 cell_1rw
+.ends
+
